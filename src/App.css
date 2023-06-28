@@ -1,0 +1,287 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #E7E9EB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.danger {
+  color: red;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+input,
+label,
+textarea,
+.column {
+  width: 300px;
+  border-radius: 10px;
+}
+
+input {
+  height: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: #FFFFFF;
+  width: 90%;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #E4EBE4;
+  padding: 20px;
+  align-items: center;
+}
+
+.about-content {
+  text-shadow: #E4EBE4;
+  padding: 20px;
+  min-height: 300px;
+  width: 400px;
+  border-left: 12px solid rgb(151, 125, 125);
+}
+
+.resume,
+.about,
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  background-color: #E4EBE4;
+  padding: 20px;
+  min-height: 500px;
+}
+
+.project-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 500px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer.footer {
+  background-color: rgb(255, 255, 255);
+}
+
+#name {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'georgia';
+  font-weight: bold;
+
+}
+
+#response {
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'georgia';
+  font-weight: bold;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #E4EBE4;
+  border-radius: 12px;
+  width: 200px;
+  flex: 1 0 21%;
+  /* explanation below */
+  margin: 20px;
+}
+
+.title {
+  padding-right: 20px;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'georgia';
+  font-weight: bold;
+}
+
+.sub-title {
+  padding-right: 20px;
+  color: rgb(72, 82, 168);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'georgia';
+  font-weight: bold;
+}
+
+.links {
+  padding-right: 20px;
+  color: rgb(8, 10, 0);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'georgia';
+  font-weight: bold;
+}
+
+#project-image {
+  clip-path: circle();
+  width: 50px;
+  border:11px solid #FDBC56;    
+  height:50px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+.project-description {
+  padding: 30px;
+  border-top: 5px solid rgb(223, 213, 213);
+}
+
+.skill {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px
+}
+
+#skill {
+  width: 300px;
+}
+
+.profession-page {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profession-page .profession-content {
+  width: 75%;
+  border-left: 10px solid #FDBC56;
+}
+  
+.profession-content {
+  background-color: #2D3E45;
+  border-radius: 24px; 
+  border-right: 10px solid #FDBC56;
+}
+
+.profession-header {
+  background-color: #FDBC56;
+  width: 100%;
+  padding: 50px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.profession-footer{
+  background-color: #FDBC56;
+  width: 100%;
+  padding: 50px;
+  border-bottom-left-radius: 24px; 
+  border-bottom-right-radius: 24px;
+
+}
+
+.profession-left {
+  padding: 12px;
+  width: 35%;
+
+}
+
+.profession-right {
+  padding: 12px;
+  padding-right: -0%;
+  width: 60%;
+  background-color: #E2E2E2;
+  border-bottom-left-radius: 24px; 
+  border-bottom-right-radius: 24px;
+  border-right: 5px solid #FDBC56;
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile {
+  border-bottom: 5px solid #2D3E45;
+}
+
+#title {
+  background-color: #E2E2E2;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.profile-pic {
+  clip-path: circle();
+  border:11px solid #FDBC56;    
+  height:100px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:100px;
+}
