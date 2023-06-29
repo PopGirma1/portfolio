@@ -180,7 +180,7 @@ function Profession() {
                             </div>
                             <div className="profession-footer">
 
-                                🌟 <a
+                                <a
                                     className="button is-primary"
                                     href={process.env.PUBLIC_URL + "/GirmayTadeseResume.pdf"}
                                     target="_blank" rel="noreferrer"
@@ -189,36 +189,36 @@ function Profession() {
                                     <span className="icon">
                                         <i className="fas fa-download"></i>
                                     </span>
-                                    <span id="download">Download My Resume</span>
+                                    <span id="download">  🌟 Download My Resume</span>
                                 </a>
                                 <br />
                                 <br />
-                                🌟 <a rel="noreferrer"
+                                 <a rel="noreferrer"
                                     target="_blank"
                                     href="https://www.upwork.com/freelancers/~015db252c89baea295" className="links">
-                                    Upwork
+                                    🌟 Upwork
                                 </a>
-                                🌟 <a rel="noreferrer"
+                                 <a rel="noreferrer"
                                     target="_blank"
                                     href="https://github.com/PopGirma1?tab=repositories" className="links">
-                                    GitHub
+                                    🌟 GitHub
                                 </a>
 
-                                🌟 <a rel="noreferrer"
+                                 <a rel="noreferrer"
                                     target="_blank"
                                     href="https://www.linkedin.com/in/girmay-tadese-840041189/" className="links">
-                                    Linkedin
+                                    🌟 Linkedin
                                 </a>
 
-                                🌟 <a rel="noreferrer"
+                                 <a rel="noreferrer"
                                     target="_blank"
                                     href="https://www.facebook.com/RophGirmaAdi/" className="links">
-                                    Facebook
+                                    🌟 Facebook
                                 </a>
 
-                                🌟 <a href="mailto:girmaytadesepop@gmail.com" className="links">Email</a>
+                                 <a href="mailto:girmaytadesepop@gmail.com" className="links">  🌟 Email</a>
 
-                                🌟  <a href="tel:+251940651252" className="links">Phone</a>
+                                 <a href="tel:+251940651252" className="links"> 🌟 Phone</a>
 
                             </div>
                         </div>

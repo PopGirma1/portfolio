@@ -183,11 +183,11 @@ footer.footer {
 #project-image {
   clip-path: circle();
   width: 50px;
-  border:11px solid #FDBC56;    
-  height:50px;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
+  border: 11px solid #FDBC56;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
 }
 
 .project-description {
@@ -218,10 +218,10 @@ footer.footer {
   width: 75%;
   border-left: 10px solid #FDBC56;
 }
-  
+
 .profession-content {
   background-color: #2D3E45;
-  border-radius: 24px; 
+  border-radius: 24px;
   border-right: 10px solid #FDBC56;
 }
 
@@ -233,13 +233,21 @@ footer.footer {
   border-top-right-radius: 24px;
 }
 
-.profession-footer{
+.profession-footer {
   background-color: #FDBC56;
   width: 100%;
   padding: 50px;
-  border-bottom-left-radius: 24px; 
+  border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
 
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
 }
 
 .profession-left {
@@ -253,17 +261,9 @@ footer.footer {
   padding-right: -0%;
   width: 60%;
   background-color: #E2E2E2;
-  border-bottom-left-radius: 24px; 
+  border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   border-right: 5px solid #FDBC56;
-}
-
-#row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 20px;
-  align-items: center;
 }
 
 .profile {
@@ -278,10 +278,44 @@ footer.footer {
 
 .profile-pic {
   clip-path: circle();
-  border:11px solid #FDBC56;    
-  height:100px;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-  width:100px;
+  border: 11px solid #FDBC56;
+  height: 100px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 100px;
+}
+
+
+
+@media screen 
+ and (max-width: 1400px) 
+ and (min-width: 200px){
+  .profession-page .profession-content {
+    width: 100%;
+  }
+
+  #row {
+    flex-wrap: wrap;
+  }
+
+  .profession-left {
+    width: 100%;
+  }
+
+  .profession-right {
+    width: 100%;
+  }
+
+  .sub-title {
+    display: none;
+  }
+  .profession-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+
+  }
 }
