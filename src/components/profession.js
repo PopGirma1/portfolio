@@ -16,6 +16,8 @@ function Profession() {
                                 <h1 className="title">Girmay Tadese</h1>
                                 <h5 className="sub-title">Develop, Design, and Test Software Applications.</h5>
                                 <span className="sub-title"> I am looking forward to working with you.</span>
+                                <h5 className="titleInfo">Develop, Design, and Test Software Applications.</h5>
+                                <span className="titleInfo"> I am looking forward to working with you.</span>
                             </div>
                         </div>
 
@@ -24,7 +26,7 @@ function Profession() {
                                 <h2 className="title" id="title">Profile</h2>
                             </div>
                             <div className="profession-right">
-                            <h5 className="sub-title"> Profile.</h5>
+                                <h5 className="sub-title"> Profile.</h5>
                                 <p>
                                     ✔ I am a professional mern-stack developer having 6+ years of experience working on projects related to MongoDB, Express.JS, React Hooks, Node.JS, Material UI, Bootstrap, Styled Components, and Cypress as my test automation tool.
                                 </p>
@@ -86,7 +88,7 @@ function Profession() {
                                 <h2 className="title" id="title">Education</h2>
                             </div>
                             <div className="profession-right" >
-                            <h5 className="sub-title"> Addis Ababa University.</h5>
+                                <h5 className="sub-title"> Addis Ababa University.</h5>
 
                                 <p>
                                     ✔   I have graduated from Addis Ababa University, in Software engineering. I chose that field of study because I’ve always been interested in programming.
@@ -99,7 +101,7 @@ function Profession() {
                                 <h2 className="title" id="title">Skills</h2>
                             </div>
                             <div className="profession-right">
-                            <h5 className="sub-title"> Skills.</h5>
+                                <h5 className="sub-title"> Skills.</h5>
                                 <span>
                                     🌟  communication, Programming, Leadership, Problem-solving skills. <br />
                                     🌟 MERN( MongoDB, Express.JS, React Hooks, Node Js).<br />
@@ -117,7 +119,7 @@ function Profession() {
                             </div>
 
                             <div className="profession-right">
-                            <h5 className="sub-title"> Languages.</h5>
+                                <h5 className="sub-title"> Languages.</h5>
 
                                 <span>
                                     🌟  Tigrinya (Tigrigna)<br />
@@ -131,7 +133,7 @@ function Profession() {
                                 <h3 className="title" id="title">Hobbies</h3>
                             </div>
                             <div className="profession-right">
-                            <h5 className="sub-title"> Hobbies.</h5>
+                                <h5 className="sub-title"> Hobbies.</h5>
 
                                 <span>
                                     ✅ Codding.<br />
@@ -148,7 +150,7 @@ function Profession() {
                                 <h3 className="title" id="title">Why me? 🌟</h3>
                             </div>
                             <div className="profession-right">
-                            <h5 className="sub-title"> Why me? 🌟</h5>
+                                <h5 className="sub-title"> Why me? 🌟</h5>
 
                                 <span>
                                     ✅ Participated in big projects and have a start-up mindset.<br />
@@ -179,9 +181,42 @@ function Profession() {
                                 <h3 className="title" id="title">Profile Links</h3>
                             </div>
                             <div className="profession-footer">
+                                <a rel="noreferrer"
+                                    target="_blank"
+                                    href="https://www.upwork.com/freelancers/~015db252c89baea295" className="links">
+                                    Upwork
+                                </a>
+                                <a rel="noreferrer"
+                                    target="_blank"
+                                    href="https://github.com/PopGirma1?tab=repositories" className="links">
+                                    GitHub
+                                </a>
+
+                                <a rel="noreferrer"
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/girmay-tadese-840041189/" className="links">
+                                    Linkedin
+                                </a>
+
+                                <a rel="noreferrer"
+                                    target="_blank"
+                                    href="https://www.facebook.com/RophGirmaAdi/" className="links">
+                                    Facebook
+                                </a>
 
                                 <a
-                                    className="button is-primary"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                    href="mailto:girmaytadesepop@gmail.com" className="links">  Email</a>
+
+                                <a rel="noreferrer"
+                                    target="_blank"
+                                    href="tel:+251940651252" className="links"> Phone</a>
+
+                                <br />  <br />
+
+                                <a
+                                    className="download"
                                     href={process.env.PUBLIC_URL + "/GirmayTadeseResume.pdf"}
                                     target="_blank" rel="noreferrer"
                                     download="Girmay_Tadese_Resume"
@@ -189,36 +224,8 @@ function Profession() {
                                     <span className="icon">
                                         <i className="fas fa-download"></i>
                                     </span>
-                                    <span id="download">  🌟 Download My Resume</span>
+                                    <span id="download">Download Resume</span>
                                 </a>
-                                <br />
-                                <br />
-                                 <a rel="noreferrer"
-                                    target="_blank"
-                                    href="https://www.upwork.com/freelancers/~015db252c89baea295" className="links">
-                                    🌟 Upwork
-                                </a>
-                                 <a rel="noreferrer"
-                                    target="_blank"
-                                    href="https://github.com/PopGirma1?tab=repositories" className="links">
-                                    🌟 GitHub
-                                </a>
-
-                                 <a rel="noreferrer"
-                                    target="_blank"
-                                    href="https://www.linkedin.com/in/girmay-tadese-840041189/" className="links">
-                                    🌟 Linkedin
-                                </a>
-
-                                 <a rel="noreferrer"
-                                    target="_blank"
-                                    href="https://www.facebook.com/RophGirmaAdi/" className="links">
-                                    🌟 Facebook
-                                </a>
-
-                                 <a href="mailto:girmaytadesepop@gmail.com" className="links">  🌟 Email</a>
-
-                                 <a href="tel:+251940651252" className="links"> 🌟 Phone</a>
 
                             </div>
                         </div>

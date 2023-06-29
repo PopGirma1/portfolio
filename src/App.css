@@ -75,23 +75,30 @@ input {
 
 .about-page {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   background-color: #E4EBE4;
   padding: 20px;
-  align-items: center;
+  min-height: 70vh;
+
 }
 
-.about-content {
+.about-page .about-content {
+  display: flex;
   text-shadow: #E4EBE4;
   padding: 20px;
   min-height: 300px;
   width: 400px;
-  border-left: 12px solid rgb(151, 125, 125);
+  justify-content: center;
+  align-items: center;
 }
 
+.about-page .about-content p {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'georgia';
+  font-weight: bold;
+}
 .resume,
-.about,
 .contact-page {
   display: flex;
   flex-direction: column;
@@ -276,6 +283,10 @@ footer.footer {
   border-radius: 12px;
 }
 
+.titleInfo{
+  display: none;
+}
+
 .profile-pic {
   clip-path: circle();
   border: 11px solid #FDBC56;
@@ -285,8 +296,12 @@ footer.footer {
   -webkit-border-radius: 50%;
   width: 100px;
 }
-
-
+.download{
+  width: 200px;
+  background-color: #00D1B2;
+  border-radius: 12px;
+  padding: 8px;
+}
 
 @media screen 
  and (max-width: 1400px) 
@@ -313,9 +328,19 @@ footer.footer {
   .profession-footer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 5px;
     flex-wrap: wrap;
 
+  }
+
+  .titleInfo{
+    display: block;
+  }
+
+  .download{
+    width: 100%;
+    background-color: #00D1B2;
+    border-radius: 12px;
   }
 }

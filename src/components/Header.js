@@ -28,7 +28,7 @@ function Header() {
                         target="_blank"
                         href="https://github.com/PopGirma1?tab=repositories"
                     >
-                        <span className="content is-large">Girmay</span>
+                        <span className="content is-large">Repos</span>
                     </a>
                     <Navigation
                         currentPage={currentPage}
