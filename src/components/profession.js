@@ -1,10 +1,17 @@
-import React from "react";
-import ProgressBar from "@ramonak/react-progress-bar";
+import React, { useRef } from "react";
+import { useReactToPrint } from 'react-to-print';
 
 function Profession() {
+    const componentRef = useRef()
+
+    const handlePrint = useReactToPrint({
+        content: () => componentRef.current,
+        documentTitle: "girmay-resume",
+        onafterprint: () => alert("Successfully printed")
+    })
     return (
 
-        <div>
+        <div ref={componentRef}>
             <div className="profession-page">
                 <div className="profession-content">
                     <div>
@@ -180,7 +187,7 @@ function Profession() {
                             <div className="profession-left">
                                 <h3 className="title" id="title">Profile Links</h3>
                             </div>
-                            <div className="profession-footer">
+                            <div className="profession-right" id="profession-footer">
                                 <a rel="noreferrer"
                                     target="_blank"
                                     href="https://www.upwork.com/freelancers/~015db252c89baea295" className="links">
@@ -212,24 +219,12 @@ function Profession() {
                                 <a rel="noreferrer"
                                     target="_blank"
                                     href="tel:+251940651252" className="links"> Phone</a>
-
-                                <br />  <br />
-
-                                <a
-                                    className="download"
-                                    href={process.env.PUBLIC_URL + "/GirmayTadeseResume.pdf"}
-                                    target="_blank" rel="noreferrer"
-                                    download="Girmay_Tadese_Resume"
-                                >
-                                    <span className="icon">
-                                        <i className="fas fa-download"></i>
-                                    </span>
-                                    <span id="download">Download Resume</span>
-                                </a>
-
                             </div>
                         </div>
+                        <div id="row">
+                            <button id="download" onClick={handlePrint}>Print MY Resume</button>
 
+                        </div>
                     </div>
                 </div >
             </div>
