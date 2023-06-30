@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navigation from "./Navigation";
 import About from "./About";
-import Profession from './profession';
+import Resume from './resume';
 
 function Header() {
     const [currentPage, handlePageChange] = useState("About");
@@ -11,8 +11,8 @@ function Header() {
         switch (currentPage) {
             case "About":
                 return <About />;
-            case "Profession":
-                return <Profession />;
+            case "Resume":
+                return <Resume />;
             default:
                 return <About />;
         }

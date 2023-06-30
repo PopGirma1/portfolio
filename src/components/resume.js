@@ -4,7 +4,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
-export default function Profession() {
+export default function Resume() {
     const componentRef = useRef()
     const handlePrint = useReactToPrint({
         content: () => componentRef.current,

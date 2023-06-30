@@ -5,8 +5,6 @@ function Footer() {
         <div className="footer">
             <div className="content has-text-centered">
                 <p>
-                    <strong>Single Page App Development</strong>
-                    <hr />
                     <a
                         href="https://www.linkedin.com/in/girmay-tadese-840041189/"
                         target="_blank" rel="noreferrer"
