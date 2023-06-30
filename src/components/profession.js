@@ -20,7 +20,7 @@ export default function Profession() {
                 </div>
 
                 <div className='profession-left-section2'>
-                    <img className="resume-pic" src={process.env.PUBLIC_URL + '/image/girmay.png'} alt="Abel Zemo Profile Picture" />
+                    <img className="resume-pic" src={process.env.PUBLIC_URL + '/image/girmay.JPG'} alt="Abel Zemo Profile Picture" />
                 </div>
 
                 <div className='profession-left-section3'>
