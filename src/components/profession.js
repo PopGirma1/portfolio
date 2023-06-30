@@ -223,7 +223,6 @@ function Profession() {
                         </div>
                         <div id="row">
                             <button id="download" onClick={handlePrint}>Print MY Resume</button>
-
                         </div>
                     </div>
                 </div >

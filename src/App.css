@@ -84,10 +84,11 @@ input {
 
 .about-page .about-content {
   display: flex;
+  flex-direction: column;
   text-shadow: #E4EBE4;
+  gap: 20px;
   padding: 20px;
   min-height: 300px;
-  width: 400px;
   justify-content: center;
   align-items: center;
 }
@@ -97,6 +98,14 @@ input {
   font-size: 16px;
   font-family: 'georgia';
   font-weight: bold;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'georgia';
+  font-weight: bold;
+  padding: 5px;
 }
 .resume,
 .contact-page {
@@ -234,8 +243,8 @@ footer.footer {
 
 .profession-header {
   background-color: #FDBC56;
-  width: 100%;
-  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
 }
@@ -247,7 +256,7 @@ footer.footer {
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   flex-wrap: wrap;
-
+  padding: 10px;
 }
 
 #row {
@@ -281,7 +290,7 @@ footer.footer {
   border-radius: 12px;
 }
 
-.titleInfo{
+.titleInfo {
   display: none;
 }
 
@@ -294,7 +303,8 @@ footer.footer {
   -webkit-border-radius: 50%;
   width: 100px;
 }
-#download{
+
+#download {
   width: 200px;
   background-color: #00D1B2;
   border-radius: 12px;
@@ -304,9 +314,7 @@ footer.footer {
   align-items: center;
 }
 
-@media screen 
- and (max-width: 1400px) 
- and (min-width: 200px){
+@media screen and (max-width: 1400px) and (min-width: 200px) {
   .profession-page .profession-content {
     width: 100%;
   }
@@ -326,7 +334,8 @@ footer.footer {
   .sub-title {
     display: none;
   }
-  .profession-footer{
+
+  .profession-footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -335,11 +344,11 @@ footer.footer {
 
   }
 
-  .titleInfo{
+  .titleInfo {
     display: block;
   }
 
-  .download{
+  .download {
     width: 100%;
     background-color: #00D1B2;
     border-radius: 12px;
