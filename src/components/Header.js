@@ -12,7 +12,7 @@ function Header() {
             case "About":
                 return <About />;
             case "Profession":
-                    return <Profession />;
+                return <Profession />;
             default:
                 return <About />;
         }
