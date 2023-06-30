@@ -1,4 +1,3 @@
-
 .about-page {
   display: flex;
   justify-content: center;
@@ -54,7 +53,7 @@ a {
   font-weight: bold;
 }
 
-.welcome-pic{
+.welcome-pic {
   clip-path: circle();
   border: 11px solid #FDBC56;
   height: 300px;
@@ -100,6 +99,7 @@ a {
   gap: 5px;
   background-color: #FFFFFF;
   margin-top: 20px;
+
 }
 
 .profession-left {
@@ -208,15 +208,33 @@ a {
   font-size: 12px;
 }
 
+.profession {
+  font-size: 18px;
+  color: #00D1B2;
+}
+
 @media screen and (max-width: 1400px) and (min-width: 200px) {
   .download {
     width: 100%;
     background-color: #00D1B2;
     border-radius: 12px;
   }
+  .profession_page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .profession-left-section1,
+.profession-left-section2,
+.profession-left-section3 {
+  width: 100%;
 }
 
-.profession{
-  font-size: 18px;
-  color: #00D1B2;
+.profession-right-section1,
+.profession-right-section2,
+.profession-right-section3 {
+  width: 100%;
+}
+
 }
