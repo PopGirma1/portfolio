@@ -3,6 +3,7 @@ import { useReactToPrint } from 'react-to-print';
 import ProgressBar from "@ramonak/react-progress-bar";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import ReactCurvedText from "react-curved-text";
 
 export default function Resume() {
     const componentRef = useRef()
@@ -17,6 +18,22 @@ export default function Resume() {
             <div className='profession-left'>
 
                 <div className='profession-left-section1'>
+                <ReactCurvedText
+                    width={400}
+                    height={160}
+                    cx={150}
+                    cy={160}
+                    rx={80}
+                    ry={80}
+                    startOffset={0}
+                    reversed={true}
+                    text="Software Engineer"
+                    textProps={{ style: { fontSize: 28.5, transform: "rotate(0deg)", fontWeight: "bold" } }}
+                    textPathProps={null}
+                    tspanProps={null}
+                    ellipseProps={null}
+                    svgProps={null}
+                />
                 </div>
 
                 <div className='profession-left-section2'>

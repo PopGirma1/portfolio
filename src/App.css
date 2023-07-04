@@ -1,29 +1,12 @@
 .about-page {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 20px;
   min-height: 100vh;
   background-color: #E2E2E2;
-}
-
-.about-page .about-content {
-  display: flex;
-  flex-direction: column;
-  text-shadow: #E4EBE4;
-  gap: 20px;
-  padding: 20px;
-  min-height: 300px;
-  justify-content: center;
   align-items: center;
 }
-
-.about-page .about-content p {
-  font-weight: bold;
-  font-size: 16px;
-  font-family: 'georgia';
-  font-weight: bold;
-}
-
 
 button {
   width: 200px;
@@ -83,14 +66,17 @@ a {
   align-items: center;
 }
 
-.profession_page {
+.profession_page,
+.preferences {
   display: flex;
   flex-direction: row;
   padding: 20px;
   justify-content: center;
   background-color: #E2E2E2;
   min-height: 70vh;
+
 }
+
 
 .profession-left,
 .profession-right {
@@ -212,6 +198,34 @@ a {
   color: #00D1B2;
 }
 
+
+.preferences {
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  width: 400px;
+  padding: 12px;
+  min-height: 250px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #006;
+  direction: ltr;
+
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 0px;
+}
+
 @media screen and (max-width: 1400px) and (min-width: 200px) {
   .download {
     width: 100%;
@@ -229,7 +243,7 @@ a {
   .profession-right {
     width: 100%;
   }
-  
+
   .profession-left-section1,
   .profession-left-section2,
   .profession-left-section3 {
@@ -242,4 +256,13 @@ a {
     width: 100%;
   }
 
+  .paragraph {
+    width: 100%
+  }
+
+  .about-content {
+
+    flex-wrap: wrap;
+    gap: 0px;
+  }
 }
