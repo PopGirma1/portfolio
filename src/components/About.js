@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { useCollapse } from 'react-collapsed';
-import ReactCurvedText from "react-curved-text";
 
 function Section(props) {
     const config = {

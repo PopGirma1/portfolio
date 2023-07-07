@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navigation from "./Navigation";
 import About from "./About";
 import Resume from './resume';
-
+import Feedback from './Feedback';
 function Header() {
     const [currentPage, handlePageChange] = useState("About");
 
@@ -13,6 +13,8 @@ function Header() {
                 return <About />;
             case "Resume":
                 return <Resume />;
+            case "Feedback":
+                return <Feedback />;
             default:
                 return <About />;
         }
