@@ -288,7 +288,7 @@ export default function Resume() {
                             </span>
                         </div>
                     </div>
-                    <p className="thanks_message">Thanks</p>
+                    <p className="thanks_message">Await the opportunity to connect with you!</p>
                 </div>
             </div>
         </div>

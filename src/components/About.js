@@ -63,7 +63,7 @@ function About() {
                 <Section title="" defaultExpanded="false">
                     <div>
                         <p className='paragraph'>
-                            I am looking forward to work in a comparative and productive company, in order to
+                            I am eager to work in a comparative and productive company, in order to
                             improve my skills, increase my knowledge in my field of study and experience, and to
                             be able to demonstrate highest levels of excellence and efficient work through a
                             complete teamwork; I am eager to learn whatever I need to finish work successfully.
