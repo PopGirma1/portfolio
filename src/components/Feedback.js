@@ -40,14 +40,6 @@ function Feedback() {
                     </div>
                 </Section>
 
-                <Section title="" defaultExpanded="false">
-                    <div >
-                        <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/1.png'} alt="Abel Zemo Profile Picture" />
-                        </div>
-                    </div>
-                </Section>
-
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
@@ -82,7 +74,14 @@ function Feedback() {
                     </div>
                 </Section>
 
-
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/screenshots/1.png'} alt="Abel Zemo Profile Picture" />
+                        </div>
+                    </div>
+                </Section>
+                
             </div>
 
         </div>
