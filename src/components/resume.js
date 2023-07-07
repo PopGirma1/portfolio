@@ -94,7 +94,7 @@ export default function Resume() {
 
                             <a rel="noreferrer"
                                 target="_blank"
-                                href="tel:+251940651252" className="links">
+                                href="https://wa.me/+251940651252" className="links">
                                 <span id="contact">
                                     <img src={process.env.PUBLIC_URL + '/image/whatsapp.svg'} width="20px" height="20px" />
                                     Whats App
