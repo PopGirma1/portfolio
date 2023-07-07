@@ -18,22 +18,22 @@ export default function Resume() {
             <div className='profession-left'>
 
                 <div className='profession-left-section1'>
-                <ReactCurvedText
-                    width={400}
-                    height={160}
-                    cx={150}
-                    cy={160}
-                    rx={80}
-                    ry={80}
-                    startOffset={0}
-                    reversed={true}
-                    text="Software Engineer"
-                    textProps={{ style: { fontSize: 28.5, transform: "rotate(0deg)", fontWeight: "bold" } }}
-                    textPathProps={null}
-                    tspanProps={null}
-                    ellipseProps={null}
-                    svgProps={null}
-                />
+                    <ReactCurvedText
+                        width={400}
+                        height={160}
+                        cx={150}
+                        cy={150}
+                        rx={100}
+                        ry={50}
+                        startOffset={0}
+                        reversed={true}
+                        text="Software engineer"
+                        textProps={{ style: { fontSize: 28.5, transform: "rotate(0deg)", fontWeight: "bold" } }}
+                        textPathProps={null}
+                        tspanProps={null}
+                        ellipseProps={null}
+                        svgProps={null}
+                    />
                 </div>
 
                 <div className='profession-left-section2'>
@@ -143,9 +143,9 @@ export default function Resume() {
                         </div>
 
                         <div className='column-content'>
-                            <p>🌟  Tigrinya (Tigrigna)</p>
-                            <p>🌟  Amharic</p>
-                            <p>🌟  English</p>
+                            <p>✅  Tigrinya (Tigrigna)</p>
+                            <p>✅  Amharic</p>
+                            <p>✅  English</p>
                         </div>
 
                         <div>
@@ -167,7 +167,7 @@ export default function Resume() {
                 </div>
 
                 <div className='profession-right-section2'>
-                    <Card>
+                    <Card id="profession">
                         <CardContent>
                             <p className="profession">
                                 Develop, Design, and Test Software Applications.
@@ -178,6 +178,18 @@ export default function Resume() {
                 <div className='profession-right-section3'>
 
                     <div id="column">
+
+                        <div>
+                            <h3>EDUCATION</h3>
+                            <hr />
+                        </div>
+                        <div className='column-content' >
+                            <h5 className="sub-title"> Addis Ababa University.</h5>
+
+                            <p>
+                                ✔   I have graduated from Addis Ababa University, with bachelor of science degree in <span className="field">Software engineering</span>. I chose that field of study because I’ve always been interested in programming.
+                            </p>
+                        </div>
 
                         <div>
                             <h3>PROFILE</h3>
@@ -196,18 +208,18 @@ export default function Resume() {
                             </p>
                             <span>
 
-                                🌟 Microservices and monolithic architecture on Backend side. <br />
-                                🌟 NGINX Reverse proxying.<br />
-                                🌟 RabbitMQ for pub sub messaging brokering.<br />
-                                🌟 CSS3, SASS, Bootstrap, Tailwind, Styled Components and Material-UI.<br />
-                                🌟 HTML5, JavaScript, Typescript, jQuery, React.JS, Next JS and Node.js.<br />
-                                🌟 REST And GraphQL.<br />
-                                🌟 Redux, context API and Zustand ( small, fast, and scalable bare-bones state-management ).<br />
-                                🌟 MySQL, Sequelize, MongoDB and Firebase.<br />
-                                🌟 Unit testing, integration testing and Cypress end to end system testing.<br />
-                                🌟 Preparing SDS and SRS documentations and test plan .<br />
-                                🌟 Dockerization.<br />
-                                🌟 Additional Skills: Java, python and Flutter.
+                                ✅ Microservices and monolithic architecture on Backend side. <br />
+                                ✅ NGINX Reverse proxying.<br />
+                                ✅ RabbitMQ for pub sub messaging brokering.<br />
+                                ✅ CSS3, SASS, Bootstrap, Tailwind, Styled Components and Material-UI.<br />
+                                ✅ HTML5, JavaScript, Typescript, jQuery, React.JS, Next JS and Node.js.<br />
+                                ✅ REST And GraphQL.<br />
+                                ✅ Redux, context API and Zustand (small, fast, and scalable bare-bones state-management).<br />
+                                ✅ MySQL, Sequelize, MongoDB and Firebase.<br />
+                                ✅ Unit testing, integration testing and Cypress end to end system testing.<br />
+                                ✅ Preparing SDS and SRS documentations and test plan .<br />
+                                ✅ Dockerization.<br />
+                                ✅ Additional Skills: Java, python and Flutter.
                             </span>
                             <p>
                                 ✔ I consider myself to be an innovative and hard-working individual who can achieve anything. I am always exploring new skills and ready for any challenge.
@@ -221,14 +233,23 @@ export default function Resume() {
 
                         <div className='column-content'>
 
-                            <h5 className="sub-title">Employement History.</h5>
+                            <h5 className="sub-title">Upwork freelancer.</h5>
+                            <p>
+                                ✔  I was working on upwork as a remote freelancer on different companies.
+                                I have participated on different projects as a team and as an independent freelancer.
+                                I have built many web apps from scratch.
+                                My contribution was as a front end and backend developer and also as a software tester.
+                            </p>
+
+                            <h5 className="sub-title">Ethiopia Electric Utility.</h5>
                             <p>
                                 ✔  I was working on Ethiopia Electric Utility Company by helping the company on creating and test software products from start to finish. we discussed and analyzed user requests and requirements then we made research and brainstorm practical solutions to meet those needs, also we determine the best course of action to create the Billing System application.
                             </p>
 
                             <h5 className="sub-title">Senior Full Stack Developer | Maya Health Consultancy.</h5>
                             <p>
-                                ✔  I have been working on Maya Health Consultant as a full stack developer. Maya Health Consultant exists to provide people with the medical answers they need and deserve when diagnosed with a serious or life-threatening condition, while providing home care, consultation through audio call and in person.                             </p>
+                                ✔  I have been working on Maya Health Consultant as a full stack developer. Maya Health Consultant exists to provide people with the medical answers they need and deserve when diagnosed with a serious or life-threatening condition, while providing home care, consultation through audio call and in person.
+                            </p>
 
                             <h5 className="sub-title">Tutor.</h5>
                             <p>
@@ -236,12 +257,13 @@ export default function Resume() {
                             </p>
                         </div>
 
+
                         <div>
-                            <h3>WHY ME? 🌟</h3>
+                            <h3>WHY ME?</h3>
                             <hr />
                         </div>
                         <div className='column-content'>
-                            <h5 className="sub-title"> Why me? 🌟</h5>
+                            <h5 className="sub-title"> Why me?</h5>
 
                             <span>
                                 ✅ Participated in big projects and have a start-up mindset.<br />
@@ -265,22 +287,9 @@ export default function Resume() {
                                 ✅ In my setup, I pay attention to details very well.
                             </span>
                         </div>
-
-                        <div>
-                            <h3>EDUCATION</h3>
-                            <hr />
-                        </div>
-                        <div className='column-content' >
-                            <h5 className="sub-title"> Addis Ababa University.</h5>
-
-                            <p>
-                                ✔   I have graduated from Addis Ababa University, in Software engineering. I chose that field of study because I’ve always been interested in programming.
-                            </p>
-                        </div>
                     </div>
-
+                    <p className="thanks_message">Thanks</p>
                 </div>
-
             </div>
         </div>
     )

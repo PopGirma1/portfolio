@@ -58,12 +58,13 @@ a {
 
 #download {
   width: 200px;
-  background-color: #00D1B2;
+  background-color: #F17400;
   border-radius: 12px;
   margin-bottom: 10px;
   padding: 10px;
   height: 50px;
   align-items: center;
+  color: white;
 }
 
 .profession_page,
@@ -129,6 +130,7 @@ a {
 .profession-right-section2 {
   height: 100px;
   padding-left: 10px;
+  padding-right: 10px;
   z-index: 10;
 }
 
@@ -173,9 +175,11 @@ a {
 .profession-left #column h3 {
   color: white;
   font-size: 20px;
-  background-color: #F17400;
   border-radius: 12px;
   padding: 5px;
+  border-bottom: 2px solid #F17400;
+  border-top: 2px solid white;
+  width: 120px;
 }
 
 .profession-right #column h3 {
@@ -193,9 +197,12 @@ a {
   font-size: 12px;
 }
 
+#profession{
+  background-color: #1E385B;
+}
 .profession {
   font-size: 18px;
-  color: #00D1B2;
+  color: #00D26A;
 }
 
 
@@ -226,10 +233,21 @@ a {
   gap: 0px;
 }
 
+.field{
+  font-size: large;
+  color: #00D26A;
+}
+
+.thanks_message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #000503cf;
+}
 @media screen and (max-width: 1400px) and (min-width: 200px) {
   .download {
     width: 100%;
-    background-color: #00D1B2;
     border-radius: 12px;
   }
 
