@@ -50,34 +50,66 @@ export default function Resume() {
                             <a rel="noreferrer"
                                 target="_blank"
                                 href="https://www.upwork.com/freelancers/~015db252c89baea295" className="links">
-                                Upwork
+                                <span id="contact">
+                                    <img src={process.env.PUBLIC_URL + '/image/upwork.png'} width="20px" height="20px" />
+                                    Upwork
+                                </span>
                             </a>
                             <a rel="noreferrer"
                                 target="_blank"
                                 href="https://github.com/PopGirma1?tab=repositories" className="links">
-                                GitHub
-                            </a>
-
-                            <a rel="noreferrer"
-                                target="_blank"
-                                href="https://www.linkedin.com/in/girmay-tadese-840041189/" className="links">
-                                Linkedin
-                            </a>
-
-                            <a rel="noreferrer"
-                                target="_blank"
-                                href="https://www.facebook.com/RophGirmaAdi/" className="links">
-                                Facebook
+                                <span id="contact">
+                                    <img src={process.env.PUBLIC_URL + '/image/github.svg'} width="20px" height="20px" />
+                                    Github
+                                </span>
                             </a>
 
                             <a
                                 rel="noreferrer"
                                 target="_blank"
-                                href="mailto:girmaytadesepop@gmail.com" className="links">  Email</a>
+                                href="mailto:girmaytadesepop@gmail.com" className="links">
+                                <span id="contact">
+                                    <img src={process.env.PUBLIC_URL + '/image/email.png'} width="20px" height="20px" />
+                                    Email
+                                </span>
+                            </a>
 
                             <a rel="noreferrer"
                                 target="_blank"
-                                href="tel:+251940651252" className="links"> Phone</a>
+                                href="https://www.linkedin.com/in/girmay-tadese-840041189/" className="links">
+                                <span id="contact">
+                                    <img src={process.env.PUBLIC_URL + '/image/linkedin.svg'} width="20px" height="20px" />
+                                    Linkedin
+                                </span>
+                            </a>
+
+                            <a rel="noreferrer"
+                                target="_blank"
+                                href="tel:+251940651252" className="links">
+                                <span id="contact">
+                                    <img src={process.env.PUBLIC_URL + '/image/phone.png'} width="20px" height="20px" />
+                                    Phone
+                                </span>
+                            </a>
+
+                            <a rel="noreferrer"
+                                target="_blank"
+                                href="tel:+251940651252" className="links">
+                                <span id="contact">
+                                    <img src={process.env.PUBLIC_URL + '/image/whatsapp.svg'} width="20px" height="20px" />
+                                    Whats App
+                                </span>
+                            </a>
+
+                            <a rel="noreferrer"
+                                target="_blank"
+                                href="https://www.facebook.com/RophGirmaAdi/" className="links">
+                                <span id="contact">
+                                    <img src={process.env.PUBLIC_URL + '/image/facebook.svg'} width="20px" height="20px" />
+                                    Facebook
+                                </span>
+                            </a>
+
                         </div>
 
 

@@ -78,7 +78,6 @@ a {
 
 }
 
-
 .profession-left,
 .profession-right {
   display: flex;
@@ -200,11 +199,11 @@ a {
 #profession{
   background-color: #1E385B;
 }
+
 .profession {
   font-size: 18px;
   color: #00D26A;
 }
-
 
 .preferences {
   gap: 10px;
@@ -246,6 +245,17 @@ a {
   color: #00D26A;
   font-weight: bold;
   margin-bottom: 10px;
+}
+.footer-element{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#contact{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
 }
 @media screen and (max-width: 1400px) and (min-width: 200px) {
   .download {
