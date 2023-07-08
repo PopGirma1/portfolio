@@ -3,9 +3,10 @@ import Navigation from "./Navigation";
 import About from "./About";
 import Resume from './resume';
 import Feedback from './Feedback';
+import Certificates from './Certificates';
 function Header() {
     const [currentPage, handlePageChange] = useState("About");
-
+    
     // The renderPage method uses a switch statement to render the appropriate current page
     const renderPage = () => {
         switch (currentPage) {
@@ -15,6 +16,8 @@ function Header() {
                 return <Resume />;
             case "Feedback":
                 return <Feedback />;
+            case "Certificates":
+                return <Certificates />;
             default:
                 return <About />;
         }
