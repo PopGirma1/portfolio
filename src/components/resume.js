@@ -193,8 +193,10 @@ export default function Resume() {
             <div className='profession-right'>
 
                 <div className='profession-right-section1'>
+                <a href="https://popgirma1.github.io/portfolio">Find Me</a> <br/>
+
                     <h2>
-                        GIRMAY TADESE
+                        GIRMAY TADESE 
                     </h2>
                 </div>
 

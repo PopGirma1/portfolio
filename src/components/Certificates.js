@@ -35,7 +35,7 @@ function Certificates() {
                 <Section title="" defaultExpanded="true">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/certificates/1.png'} alt="Abel Zemo Profile Picture" width={700} height={700} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/1.png'} alt="Abel Zemo Profile Picture" width={700} height={900} />
                         </div>
                     </div>
                 </Section>
