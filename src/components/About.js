@@ -30,7 +30,7 @@ function About() {
 
             <div className='about-content'>
 
-                <img className="welcome-pic" src={process.env.PUBLIC_URL + '/image/girmay.JPG'} alt="Abel Zemo Profile Picture" />
+                <img className="welcome-pic" src={process.env.PUBLIC_URL + '/image/girmay.JPG'} alt="girmay" />
             </div>
 
             <div className="preferences">

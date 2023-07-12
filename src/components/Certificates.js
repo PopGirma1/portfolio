@@ -35,7 +35,7 @@ function Certificates() {
                 <Section title="" defaultExpanded="true">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/certificates/1.png'} alt="Abel Zemo Profile Picture" width={700} height={900} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/1.png'} alt="girmay" width={700} height={900} />
                         </div>
                     </div>
                 </Section>
@@ -43,7 +43,7 @@ function Certificates() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/2.png'} alt="Abel Zemo Profile Picture" width={700} height={700} />
+                        <img src={process.env.PUBLIC_URL + '/certificates/2.png'} alt="girmay" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
@@ -51,16 +51,7 @@ function Certificates() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/3.png'} alt="Abel Zemo Profile Picture" width={700} height={700} />
-                        </div>
-                    </div>
-                </Section>
-
-
-                <Section title="" defaultExpanded="flase">
-                    <div >
-                        <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/4.png'} alt="Abel Zemo Profile Picture" width={700} height={700} />
+                        <img src={process.env.PUBLIC_URL + '/certificates/3.png'} alt="girmay" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
@@ -69,7 +60,16 @@ function Certificates() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/5.png'} alt="Abel Zemo Profile Picture" width={700} height={700} />
+                        <img src={process.env.PUBLIC_URL + '/certificates/4.png'} alt="girmay" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+
+                <Section title="" defaultExpanded="flase">
+                    <div >
+                        <div className='feedback-content'>
+                        <img src={process.env.PUBLIC_URL + '/certificates/5.png'} alt="girmay" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
@@ -77,7 +77,7 @@ function Certificates() {
                 <Section title="" defaultExpanded="false">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/6.png'} alt="Abel Zemo Profile Picture" width={700} height={700} />
+                        <img src={process.env.PUBLIC_URL + '/certificates/6.png'} alt="girmay" width={700} height={700} />
                         </div>
                     </div>
                 </Section>

@@ -35,7 +35,7 @@ function Feedback() {
                 <Section title="" defaultExpanded="true">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/0.png'} alt="Abel Zemo Profile Picture" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/0.png'} alt="girmay" />
                         </div>
                     </div>
                 </Section>
@@ -43,7 +43,7 @@ function Feedback() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/2.png'} alt="Abel Zemo Profile Picture" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/2.png'} alt="girmay" />
                         </div>
                     </div>
                 </Section>
@@ -51,16 +51,7 @@ function Feedback() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/3.png'} alt="Abel Zemo Profile Picture" />
-                        </div>
-                    </div>
-                </Section>
-
-
-                <Section title="" defaultExpanded="flase">
-                    <div >
-                        <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/4.png'} alt="Abel Zemo Profile Picture" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/3.png'} alt="girmay" />
                         </div>
                     </div>
                 </Section>
@@ -69,7 +60,16 @@ function Feedback() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/5.png'} alt="Abel Zemo Profile Picture" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/4.png'} alt="girmay" />
+                        </div>
+                    </div>
+                </Section>
+
+
+                <Section title="" defaultExpanded="flase">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/screenshots/5.png'} alt="girmay" />
                         </div>
                     </div>
                 </Section>
@@ -77,7 +77,7 @@ function Feedback() {
                 <Section title="" defaultExpanded="false">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/1.png'} alt="Abel Zemo Profile Picture" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/1.png'} alt="girmay" />
                         </div>
                     </div>
                 </Section>

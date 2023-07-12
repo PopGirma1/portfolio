@@ -37,7 +37,7 @@ export default function Resume() {
                 </div>
 
                 <div className='profession-left-section2'>
-                    <img className="resume-pic" src={process.env.PUBLIC_URL + '/image/girmay.JPG'} alt="Abel Zemo Profile Picture" />
+                    <img className="resume-pic" src={process.env.PUBLIC_URL + '/image/girmay.JPG'} alt="girmay" />
                 </div>
 
                 <div className='profession-left-section3'>
