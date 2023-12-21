@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useCollapse } from 'react-collapsed';
 
@@ -24,7 +23,10 @@ function Section(props) {
         </div>
     );
 }
+
+
 function Certificates() {
+
     return (
         <div className='feedback-page'>
 
@@ -35,7 +37,7 @@ function Certificates() {
                 <Section title="" defaultExpanded="true">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/certificates/1.png'} alt="girmay" width={700} height={900} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/1.png'} alt="girmay's certificates" width={700} height={900} />
                         </div>
                     </div>
                 </Section>
@@ -43,7 +45,7 @@ function Certificates() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/2.png'} alt="girmay" width={700} height={700} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/2.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
@@ -51,25 +53,23 @@ function Certificates() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/3.png'} alt="girmay" width={700} height={700} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/3.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
 
-
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/4.png'} alt="girmay" width={700} height={700} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/4.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
 
-
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/5.png'} alt="girmay" width={700} height={700} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/5.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
@@ -77,11 +77,91 @@ function Certificates() {
                 <Section title="" defaultExpanded="false">
                     <div >
                         <div className='feedback-content'>
-                        <img src={process.env.PUBLIC_URL + '/certificates/6.png'} alt="girmay" width={700} height={700} />
+                            <img src={process.env.PUBLIC_URL + '/certificates/6.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
-                
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/7.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/8.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/9.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/10.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/11.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/12.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/13.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/14.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/15.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/16.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
             </div>
 
         </div>

@@ -24,7 +24,11 @@ function Section(props) {
         </div>
     );
 }
+
+
+
 function Feedback() {
+
     return (
         <div className='feedback-page'>
 
@@ -35,7 +39,7 @@ function Feedback() {
                 <Section title="" defaultExpanded="true">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/0.png'} alt="girmay" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/0.png'} alt="girmay's feedback" />
                         </div>
                     </div>
                 </Section>
@@ -43,7 +47,7 @@ function Feedback() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/2.png'} alt="girmay" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/2.png'} alt="girmay's feedback" />
                         </div>
                     </div>
                 </Section>
@@ -51,16 +55,7 @@ function Feedback() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/3.png'} alt="girmay" />
-                        </div>
-                    </div>
-                </Section>
-
-
-                <Section title="" defaultExpanded="flase">
-                    <div >
-                        <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/4.png'} alt="girmay" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/3.png'} alt="girmay's feedback" />
                         </div>
                     </div>
                 </Section>
@@ -69,7 +64,16 @@ function Feedback() {
                 <Section title="" defaultExpanded="flase">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/5.png'} alt="girmay" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/4.png'} alt="girmay's feedback" />
+                        </div>
+                    </div>
+                </Section>
+
+
+                <Section title="" defaultExpanded="flase">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/screenshots/5.png'} alt="girmay's feedback" />
                         </div>
                     </div>
                 </Section>
@@ -77,11 +81,12 @@ function Feedback() {
                 <Section title="" defaultExpanded="false">
                     <div >
                         <div className='feedback-content'>
-                            <img src={process.env.PUBLIC_URL + '/screenshots/1.png'} alt="girmay" />
+                            <img src={process.env.PUBLIC_URL + '/screenshots/1.png'} alt="girmay's feedback" />
                         </div>
                     </div>
                 </Section>
-                
+
+
             </div>
 
         </div>
