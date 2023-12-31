@@ -162,6 +162,14 @@ function Certificates() {
                     </div>
                 </Section>
 
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/17.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
             </div>
 
         </div>
