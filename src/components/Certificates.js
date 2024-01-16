@@ -37,6 +37,22 @@ function Certificates() {
                 <Section title="" defaultExpanded="true">
                     <div >
                         <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/Microsoft Power BI Data Analyst Professional Certificate.png'} alt="girmay's certificates" width={700} height={900} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="true">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/IBM Data Analyst Professional Certificate.png'} alt="girmay's certificates" width={700} height={900} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="true">
+                    <div >
+                        <div className='feedback-content'>
                             <img src={process.env.PUBLIC_URL + '/certificates/1.png'} alt="girmay's certificates" width={700} height={900} />
                         </div>
                     </div>
@@ -190,6 +206,30 @@ function Certificates() {
                     <div >
                         <div className='feedback-content'>
                             <img src={process.env.PUBLIC_URL + '/certificates/20.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>  
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/21.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>  
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/22.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>  
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/23.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
                 </Section>  
