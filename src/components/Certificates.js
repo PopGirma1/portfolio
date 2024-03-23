@@ -200,7 +200,7 @@ function Certificates() {
                             <img src={process.env.PUBLIC_URL + '/certificates/19.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
-                </Section>              
+                </Section>
 
                 <Section title="" defaultExpanded="false">
                     <div >
@@ -208,7 +208,7 @@ function Certificates() {
                             <img src={process.env.PUBLIC_URL + '/certificates/20.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
-                </Section>  
+                </Section>
 
                 <Section title="" defaultExpanded="false">
                     <div >
@@ -216,7 +216,7 @@ function Certificates() {
                             <img src={process.env.PUBLIC_URL + '/certificates/21.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
-                </Section>  
+                </Section>
 
                 <Section title="" defaultExpanded="false">
                     <div >
@@ -224,7 +224,7 @@ function Certificates() {
                             <img src={process.env.PUBLIC_URL + '/certificates/22.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
-                </Section>  
+                </Section>
 
                 <Section title="" defaultExpanded="false">
                     <div >
@@ -232,8 +232,17 @@ function Certificates() {
                             <img src={process.env.PUBLIC_URL + '/certificates/23.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
-                </Section>  
+                </Section>
 
+                <p> Google </p>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/24.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
             </div>
 
         </div>
