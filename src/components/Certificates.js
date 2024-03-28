@@ -234,12 +234,17 @@ function Certificates() {
                     </div>
                 </Section>
 
-                <p> Google </p>
-
                 <Section title="" defaultExpanded="false">
                     <div >
                         <div className='feedback-content'>
                             <img src={process.env.PUBLIC_URL + '/certificates/24.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/python.png'} alt="girmay's certificates" width={700} height={700} />
                         </div>
                     </div>
                 </Section>
