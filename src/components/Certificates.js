@@ -248,6 +248,46 @@ function Certificates() {
                         </div>
                     </div>
                 </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/25.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/26.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/27.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/28.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="false">
+                    <div >
+                        <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/29.png'} alt="girmay's certificates" width={700} height={700} />
+                        </div>
+                    </div>
+                </Section>
             </div>
 
         </div>
