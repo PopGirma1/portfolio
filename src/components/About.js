@@ -32,6 +32,9 @@ function About() {
 
                 <img className="welcome-pic" src={process.env.PUBLIC_URL + '/image/girmay.JPG'} alt="girmay" />
             </div>
+            <div className='about-content'>
+                <a href='https://venus-online-software-training.com/'>Go to Website</a>
+            </div>
 
             <div className="preferences">
                 <Section title="" defaultExpanded="true">
