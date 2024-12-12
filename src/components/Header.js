@@ -6,16 +6,16 @@ import Feedback from './Feedback';
 import Certificates from './Certificates';
 function Header() {
     const [currentPage, handlePageChange] = useState("Certificates");
-    
+
     // The renderPage method uses a switch statement to render the appropriate current page
     const renderPage = () => {
         switch (currentPage) {
+            case "Certificates":
+                return <Certificates />;
             case "Resume":
                 return <Resume />;
             case "Feedback":
                 return <Feedback />;
-            case "Certificates":
-                return <Certificates />;
             default:
                 return <Certificates />;
         }
