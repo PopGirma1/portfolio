@@ -45,6 +45,14 @@ function Certificates() {
                 <Section title="" defaultExpanded="true">
                     <div >
                         <div className='feedback-content'>
+                            <img src={process.env.PUBLIC_URL + '/certificates/edi.png'} alt="girmay's certificates" width={700} height={900} />
+                        </div>
+                    </div>
+                </Section>
+
+                <Section title="" defaultExpanded="true">
+                    <div >
+                        <div className='feedback-content'>
                             <img src={process.env.PUBLIC_URL + '/certificates/IBM Data Analyst Professional Certificate.png'} alt="girmay's certificates" width={700} height={900} />
                         </div>
                     </div>
