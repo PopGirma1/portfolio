@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navigation from "./Navigation";
-import About from "./About";
+// import About from "./About";
 import Resume from './resume';
 import Feedback from './Feedback';
 import Certificates from './Certificates';
