@@ -1,26 +1,21 @@
 import React from "react";
 
-function Navigation(props) {
+function Navigation({ currentPage, handlePageChange }) {
   const tabs = ["Certificates", "Resume", "Feedback"];
+
   return (
     <div className="tabs is-centered">
       <ul className="nav nav-tabs">
         {tabs.map((tab) => (
           <li
-            className={
-              props.currentPage === tab ? "nav-item is-active" : "nav-item"
-            }
+            className={currentPage === tab ? "nav-item is-active" : "nav-item"}
             key={tab}
           >
             <a
               href={"#" + tab.toLowerCase()}
-
-              // Whenever a tab is clicked on,
-              // the current page is set through the handlePageChange props.
-
-              onClick={() => props.handlePageChange(tab)}
+              onClick={() => handlePageChange(tab)}
               className={
-                props.currentPage === tab ? "nav-link active" : "nav-link"
+                currentPage === tab ? "nav-link active" : "nav-link"
               }
             >
               {tab}
